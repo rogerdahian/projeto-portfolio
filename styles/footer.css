@@ -1,0 +1,134 @@
+footer{
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+  width: 100%;
+
+  a{
+    text-decoration: none;
+  
+  }
+  
+  a:hover{
+    border: 1.5px solid var(--blue);
+    border-radius: 8px;
+    transition: 0.17s;
+    
+    
+    .div2{
+      background-image: url(../assets/footer-svg/arrow-hover.svg);
+    }
+    #linkedin{
+      background-image:url(../assets/footer-svg/linkedin-hover.svg);
+    }
+    #instagram{  background-image:url(../assets/footer-svg/Instagram-hover.svg);}
+  
+    #github{
+      background-image: url(../assets/footer-svg/github-hover.svg);
+    }
+  
+    #email{
+      background-image: url(../assets/footer-svg/e-mail-hover.svg);
+    }
+  }
+  
+  
+}
+
+#box-contacts{
+  display: flex;
+  flex-flow: column;
+  gap:16px;
+  justify-content: center;
+  align-items: center;
+
+
+  padding-bottom: 200px;
+
+}
+
+.text-footer{
+  text-align: center;
+  padding-block: 128px 48px;
+
+
+  h2{
+    font: var(--subtitle);
+    color: var(--purple);
+  }
+
+  h1{
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-block: 8px;
+
+  }
+
+  h3{
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+}
+
+.contacts{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-300);
+  overflow: hidden;
+  border-radius: 8px;
+  
+
+  .div1{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-left: 20px;
+  }
+
+  .conts{
+    background-repeat: no-repeat;
+    width: 23px;
+    aspect-ratio: 1/1;
+  }
+  
+  #linkedin{
+    background-image: url(../assets/footer-svg/linkedin.svg);
+    
+  }
+  #instagram{  background-image:url(../assets/footer-svg/Instagram.svg);
+  }
+
+  #github{
+    background-image: url(../assets/footer-svg/github.svg);
+  }
+
+  #email{
+    background-image: url(../assets/footer-svg/e-mail.svg);
+  }
+
+  .div2{
+    background-image: url(../assets/footer-svg/arrow.svg);
+    background-repeat: no-repeat;
+    width: 23px;
+    aspect-ratio: 1/1;
+
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+  }
+  
+  span{
+    color: var(--gray-500);
+    font: var(--maven); 
+  }
+
+  
+}
+
